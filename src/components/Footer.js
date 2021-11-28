@@ -15,7 +15,7 @@ export default function Footer() {
                     </div>
                     <div className="col-md-4 mx-auto text-center mb-2">
                         <h3>Text Analyzer</h3>
-                        <p className="mt-2">This website is not for commercial purpose, the material and information contained on this website is for general purposes only.</p>
+                        <p className="mt-2">Enter your text to analyze here. This website is not for commercial purpose </p>
                     </div>
                     <div className="col-md-4 mx-auto text-center mb-2">
                         <h3>Contact Me</h3>
