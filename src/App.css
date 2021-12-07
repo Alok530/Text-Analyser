@@ -31,3 +31,6 @@
     margin-top: 50px;
   }
 }
+.btn:focus{  
+  box-shadow: none;
+}
