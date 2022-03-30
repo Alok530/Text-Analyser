@@ -5,6 +5,7 @@ export default function Navbar(props) {
     return (        
         <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
             <div className="container-fluid">
+            
                 {/*<Link className="navbar-brand" to="/">{props.tittle}</Link>*/}
                 <div className="col-md-9">
                     <h1 className="navbar-brand" to="/">{props.tittle}</h1>
