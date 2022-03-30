@@ -46,6 +46,7 @@ export default function Textform(props) {
             <div className="container textutils">
             <h1>Enter the text to analyze below</h1>
                 <div className="mb-3">
+                
                     <textarea value={text} onChange={onchangeFun} style={{ backgroundColor: props.mode === 'secondary' ? 'white' : 'rgb(30 28 82)', color: props.mode === 'secondary' ? 'black' : 'white', border:'2px solid' }} className="form-control mb-3" id="myBox" rows="8"></textarea>
                     <button type="button" onClick={upperFun} className="btn btn-primary mx-1 my-2">Convert To Uppercase</button>
                     <button type="button" onClick={loweCaseFun} className="btn btn-primary mx-1 my-2">Convert To Lowercase</button>
